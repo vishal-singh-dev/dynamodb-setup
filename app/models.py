@@ -1,0 +1,7 @@
+
+from app import BaseModel
+
+class User(BaseModel):
+    user_id: str
+    name: str
+    email: str
